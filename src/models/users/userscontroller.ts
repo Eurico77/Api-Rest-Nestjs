@@ -11,8 +11,9 @@ import { Crud } from '@nestjsx/crud';
     params:{
         id:{ 
             field: 'id',
-            type: 'uuid',
-            primary: true
+            type: 'number',
+            primary: true,
+            
 
 
         }

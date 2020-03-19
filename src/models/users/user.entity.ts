@@ -9,13 +9,16 @@ export class User {
     id: number;
 
     @Column({ length: 50 })
-    FullName:string;
+    fullName:string;
 
     @Column()
     email: string;
 
     @Column()
     age: number;
+
+    @Column()
+    techs: string;
 
     @Column() 
     isActive:boolean;
